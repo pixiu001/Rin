@@ -59,7 +59,7 @@ function Footer() {
                             setDoubleClickTimes(doubleClickTimes + 1)
                         }
                     }}>
-                        © {new Date().getFullYear()} Powered by <a className='hover:underline' href="/" target="_blank">When You Say Nothing at All</a>
+                        © {new Date().getFullYear()} My friend <a className='hover:underline' href="/" target="_blank">When You Say Nothing at All</a>
                     </span>
                     {config.get<boolean>('rss') && <>
                         <Spliter />
